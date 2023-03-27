@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color:blue;
+  background-image: linear-gradient(79deg,#7439db,#C66FBC 48%,#F7944D);
+  background-size: cover;
+}
+
+.auth-form-container,.login-form,.register-form{
+  text-align: center;
+ 
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border:100px soildrgb(9, 1, 1)d;
+  box-shadow: 10 10 10px rgba(148, 74, 74, 0.2);
+  padding:20px;
+  border-radius: 5px;
+}
+
+label{
+ 
+  text-align: center;
+  padding: 0.25rem 0;
+}
+
+/* input{
+  text-align: center;
+  margin:0.5rem 0;
+  padding: 1rem;
+  border:none;
+  border-radius: 10px;
+  width: 300px;
+  
+} */
+/* input{
+  align-items: center;
+  display: block;  
+  margin: auto;     
+  margin:0.5rem 0;
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+  align-items: center;
+} */
+button{
+  /* border:none; */
+  background-color:rgb(130, 234, 117);
+  padding: 10px;
+  border-radius:8px;
+  /* cursor: pointer; */
+  width: 150px;
+}
+
+.link-btn{
+  background: none;
+  color:blue;
+  text-decoration: underline;
+ 
+}
+/* .input-book{
+
+  align-items: center;
+  
+  padding:20px;
+  margin:auto;
+  display:block;
+  align-items: center;
+  border-radius: 10px;
+  width: 300px;
+
+
+
+    
+} */
+input{
+  width: auto;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.payment-btn{
+  width: 200px;
+  margin-top: 10px;
+}
+/* .book-process{
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+  display: block;
+} */
+
+.book-process{
+  margin-left: 500px;
+  
+}
+.payment-form{
+ align-items: center;
+ text-align: center;
+ /* margin-left: 500px; */
+}
+
+
+
+.payment-input{
+  padding: 0px 540px;
+  
+}
+.doctor-space{
+  text-align: center;
+
+}
+.navbar-nav{
+  padding: 1px 900px;
+}
+
+.doctor-login{
+  text-align: center;
+ 
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border:100px soildrgb(9, 1, 1)d;
+  box-shadow: 10 10 10px rgba(148, 74, 74, 0.2);
+  padding:20px 300px 200px;
+  border-radius: 5px;
+
+}
+.payment-h{
+  padding: 65px;
+
+}
+.view{
+  text-align: center;
+}
